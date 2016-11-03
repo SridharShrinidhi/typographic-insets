@@ -88,7 +88,7 @@ footer {
 
 /* Write your CSS here */
 
-blockquote p {
+blockquote p:first-child {
   display: inline-block;
   font-family: Georgia, serif;
   font-style: normal;
@@ -109,6 +109,7 @@ blockquote p {
   color: white;
   font-style: normal;
   margin-right: 10px;
+  margin-top: 2px;
 }
 
 .clearfix::after {
@@ -131,6 +132,7 @@ figure {
 figcaption {
   font-style: italic;
   font-size: .875rem;
+  margin: 10px 0 0;
 }
 
 blockquote {
