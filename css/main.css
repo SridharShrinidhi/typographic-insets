@@ -87,3 +87,63 @@ footer {
 */
 
 /* Write your CSS here */
+
+blockquote p {
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-style: normal;
+  padding: 6px;
+  border-style: none;
+  margin: 0;
+}
+
+.wrapper > p:first-child::first-letter {
+  float: left;
+  padding: .2em;
+  margin: 0 0 0 -40px;
+  background-color: #666;
+  border-color: #333;
+  border-style: solid;
+  border-width: 3px 0;
+  font-size: 5rem;
+  color: white;
+  font-style: normal;
+  margin-right: 10px;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+figure {
+  width: 300px;
+  float: right;
+  border-style: solid;
+  border-color: #333;
+  border-width: 3px 0;
+  overflow: hidden;
+  padding: 6px 0;
+  margin: 0 -160px 0 16px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: .875rem;
+}
+
+blockquote {
+  display: block;
+  font-size: 1.5rem;
+  width: 300px;
+  border-style: solid;
+  border-width: 3px 0;
+  font-style: italic;
+  float: left;
+  color: #666;
+  border-color: #333;
+  text-align: right;
+  margin: 10px 16px 10px -160px;
+  line-height: 1.25;
+}
